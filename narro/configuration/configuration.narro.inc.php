@@ -23,7 +23,7 @@
 
         define ('ADMIN_EMAIL_ADDRESS', 'petercpg@mail.moztw.org');
         define ('__PHP_CLI_PATH__', '/usr/bin/php');
-        
+
         /**
          * Common setup for setting up Narro in a subdirectory narro under a docroot
          * e.g. docroot is /var/www/html, you put Narro in /var/www/html/narro and access it at http://localhost/narro
@@ -33,7 +33,7 @@
         define ('__DOCROOT__', realpath(dirname(__FILE__) . '/../../'));
         define ('__VIRTUAL_DIRECTORY__', '');
         define ('__SUBDIRECTORY__', '/narro');
-    
+
         /**
          * The database connection settings
          */
@@ -45,7 +45,7 @@
             'username' => 'root',
             'password' => '',
             'profiling' => false)));
-    
+
         /**
          * this constant allows any user do export files or import up to this defined size
          * default is ~ 16MB
@@ -55,14 +55,14 @@
         define ('__MAXIMUM_FILE_COUNT_TO_IMPORT__', 3000);
         define ('__MAXIMUM_FILE_COUNT_TO_EXPORT__', 3000);
         define ('__SOURCE_LANGUAGE_CODE__', 'en-US');
-    
-    
+
+
         /**
          * used for email sending from narro (notifications and password recovery)
          */
         define ('__FROM_EMAIL_ADDRESS__', 'root@localhost');
         define ('__FROM_EMAIL_NAME__', 'Narro');
-    
+
         define ('__NARRO_INCLUDES__', __DOCROOT__ . __SUBDIRECTORY__ . '/includes');
         define ('__NARRO_DATA__', __DOCROOT__ . __SUBDIRECTORY__ . '/data');
         define ('__NARRO_IMAGE_ASSETS__', __VIRTUAL_DIRECTORY__ . __SUBDIRECTORY__ . '/assets/images');
@@ -71,7 +71,7 @@
         define ('__TMP_PATH__', __NARRO_DATA__ . '/tmp');
         define ('__IMPORT_PATH__', __NARRO_DATA__ . '/import');
         define ('__RSS_PATH__', __NARRO_DATA__ . '/rss');
-    
+
         set_include_path(
             __DOCROOT__ . __SUBDIRECTORY__ . PATH_SEPARATOR .
             __DOCROOT__ . __SUBDIRECTORY__ . '/includes' . PATH_SEPARATOR .
@@ -83,7 +83,7 @@
             '/usr/share/pear' . PATH_SEPARATOR .
             get_include_path()
             );
-    
+
         ini_set('mbstring.encoding_translation', true);
         ini_set('mbstring.internal_encoding', 'UTF-8');
         ini_set('error_log', __TMP_PATH__ . '/error.log');

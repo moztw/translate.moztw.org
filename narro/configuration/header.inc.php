@@ -19,7 +19,7 @@
  if (class_exists('QApplication') && QApplication::QueryString('p')) {
      $objProject = NarroProject::Load(QApplication::QueryString('p'));
  }
- 
+
  if (isset($_SERVER['HTTPS'])) {
      header('Strict-Transport-Security: max-age=31536000; includeSubDomains');
  }
@@ -57,7 +57,6 @@
         <script type="text/javascript" src="<?php echo  __JS_ASSETS__ . '/' . __JQUERY_EFFECTS__?>"></script>
         <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.4.0.js"></script>
         <script type="text/javascript" src="<?php echo  __JS_ASSETS__ . '/qcubed.js'?>"></script>
-        <script type="text/javascript" src="<?php echo  __JS_ASSETS__ . '/control.js'?>"></script>
         <script type="text/javascript" src="<?php echo  __JS_ASSETS__ . '/date_time_picker.js'?>"></script>
         <script type="text/javascript" src="<?php echo  __JS_ASSETS__ . '/treenav.js'?>"></script>
 <script type="text/javascript">
