@@ -4,8 +4,11 @@
 	<meta charset="utf-8" />
 	<title>MozTW 翻譯站</title>
 	<base target="_blank" />
+	<!--#include virtual="assets/partials/basis.shtml" -->
 </head>
 <body>
+	<!--#include virtual="assets/partials/header.shtml" -->
+	<article style="width: 960px; margin: 0 auto">
 	<h1>MozTW 翻譯站</h1>
 	<blockquote>
 		<p><strong>English: </strong>This is where MozTW hosts its "bridging" services to localizing Mozilla products. Primary, there is a <a href="https://code.google.com/p/narro/">Narro</a> <a href="./narro/">installation</a> which separates files by products (with a project marked "shared" contains code for all Mozilla app). Some other scripts was also written to import and correct translations between repositories and Narro database. <strong>Any changes will and should always inspected by human before commit to the repository.</strong></p>
@@ -114,5 +117,7 @@
 		<li>到 Import 頁面匯入原文與譯文字串</li>
 		<li>回到翻譯流程 #3</li>
 	</ol>
+	</article>
+<!--#include virtual="assets/partials/footer.shtml" -->
 </body>
 </html>
