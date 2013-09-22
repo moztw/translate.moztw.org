@@ -11,7 +11,11 @@
 		<p><strong>English: </strong>This is where MozTW hosts its "bridging" services to localizing Mozilla products. Primary, there is a <a href="https://code.google.com/p/narro/">Narro</a> <a href="./narro/">installation</a> which separates files by products (with a project marked "shared" contains code for all Mozilla app). Some other scripts was also written to import and correct translations between repositories and Narro database. <strong>Any changes will and should always inspected by human before commit to the repository.</strong></p>
 	</blockquote>
 	<p>歡迎光臨翻譯站，此站（第三代）僅供在地化團隊內部使用。這裡的翻譯建議並沒有被監控，想要回報錯誤請到討論區的<a href="http://forum.moztw.org/viewforum.php?f=4">在地化板回報</a>。有意長期貢獻請或接手翻譯專案的話請<a href="http://moztw.org/contribute/">加入我們</a>，到 mailing list 報到！</p>
-	<p>請前往 <a href="./narro/">Narro</a></p>
+    <p>請前往 <a href="https://wiki.mozilla.org/L10n:Teams:zh-TW">Team Page at MozillaWiki</a></p>
+	<ul>
+		<li>取得翻譯團隊成員與專案的相關資訊</li>
+    </ul>
+	<p>請前往 <a href="/narro">Narro</a></p>
 	<ul>
 		<li>若您是 l10n 團隊的一員或是已接受邀請願意參與翻譯</li>
 		<li>想要看看尚未 push 到 Mozilla 的翻譯進度</li>
@@ -23,16 +27,6 @@
 	<p>請前往 <a href="https://l10n.mozilla.org/teams/zh-TW">L10n dashboard</a><!-- 或 <a href="https://l10n.mozilla.org/dashboard/?locale=zh-TW">old l10n dashboard</a>--></p>
 	<ul>
 		<li>若您想要知道目前各程式的正體中文語系在 Mozilla repository 當中的狀態</li>
-	</ul>
-	<!-- DEPRECATED
-	<p>請前往 <a href="https://l10n.mozilla.org/webby/">Webby</a></p>
-	<ul>
-		<li>若您想要知道目前有哪些語系已經加入某個網頁專案，以及各專案的狀態</li>
-		<li>各網頁專案的 repo/stage 等基礎資訊</li>
-	</ul>-->
-	<p>請前往 <a href="http://tinderbox.mozilla.org/showbuilds.cgi?tree=Mozilla-l10n-zh-TW">tinderbox</a></p>
-	<ul>
-		<li>若您想要知道 l10n repository 目前的編譯狀態</li>
 	</ul>
 	<p>請前往 <a href="https://localize.mozilla.org/zh_TW/">Mozilla Verbatim</a></p>
 	<ul>
@@ -47,14 +41,14 @@
 	<ul>
 		<li><a href="http://mxr.mozilla.org/">mxr.mozilla.org</a> - 瀏覽 Mozilla 程式碼（Mozilla）</li>
 		<li><a href="http://transvision.mozfr.org/">Transvision glossary</a> - 詞彙位置搜尋（法國 L10n 團隊）</li>
-                <li>English CopyNPaste Translations for <a href="http://indianoss.sourceforge.net/mozilla/CopyNPasteFinder.php?q=zh-TW">Firefox</a>、<a href="http://indianoss.sourceforge.net/mozilla/CopyNPasteFinder_Aurora.php?q=zh-TW">Firefox Aurora</a> - 中英相同詞彙列表（印度團隊）</li>
+		<li>English CopyNPaste Translations for <a href="http://indianoss.sourceforge.net/mozilla/CopyNPasteFinder.php?q=zh-TW">Firefox</a>、<a href="http://indianoss.sourceforge.net/mozilla/CopyNPasteFinder_Aurora.php?q=zh-TW">Firefox Aurora</a> - 中英相同詞彙列表（印度團隊）</li>
 	</ul>
 	<p>所有非 <a href="http://blog.mozilla.com/blog/2011/04/13/new-channels-for-firefox-rapid-releases/">Rapid Release Cycle</a> 下的舊版本翻譯已不再維護並自翻譯站移除，若有需要請直接至 Mozilla 取回最終版本翻譯，或至 <a href="oldrepo/">此處</a> 取用備份（以專案與版本區分資料夾）。</p>
 	<hr />
 	<h2>著作權</h2>
 	<p>此網站上的所有翻譯皆為 <a href="http://www.mozilla.org/MPL/2.0/">MPL 2.0</a> 授權，與 Mozilla 所有程式碼的授權相同，供任何人在此授權條件下使用。<strong>如不同意該授權請勿在此站提供翻譯建議。</strong></p>
 	<blockquote>
-	<p><strong>English:</strong> Anything on this site is licensed under <a href="http://www.mozilla.org/MPL/2.0/">MPL 2.0</a>, in line with Mozilla policy. Anyone is welcome to make use of these work under such condition. <strong>Do not contribute if you don't agree with the terms.</strong></p>
+		<p><strong>English:</strong> Anything on this site is licensed under <a href="http://www.mozilla.org/MPL/2.0/">MPL 2.0</a>, in line with Mozilla policy. Anyone is welcome to make use of these work under such condition. <strong>Do not contribute if you don't agree with the terms.</strong></p>
 	</blockquote>
 	<hr />
 	<h2>翻譯流程 (給 l10n owners)</h2>
