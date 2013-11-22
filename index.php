@@ -14,7 +14,11 @@
     <p>請前往 <a href="https://wiki.mozilla.org/L10n:Teams:zh-TW">Team Page at MozillaWiki</a></p>
 	<ul>
 		<li>取得翻譯團隊成員與專案的相關資訊</li>
-    </ul>
+  </ul>
+  <p>請前往 <a href="https://docs.google.com/document/d/1PThAgJFU2zzujY5DR5SfVG_ajGRXkoweXeL2yBlnGds/view">Mozilla zh-TW L10n Style Guide and Rules</a></p>
+  <ul>
+    <li>了解正體中文語系的樣式與 L10n Rule</li>
+  </ul>
 	<p>請前往 <a href="/narro">Narro</a></p>
 	<ul>
 		<li>若您是 l10n 團隊的一員或是已接受邀請願意參與翻譯</li>
