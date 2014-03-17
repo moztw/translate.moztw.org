@@ -37,10 +37,14 @@
 		<li>若您想要知道目前已經加入的網頁專案</li>
 		<li>送出各維護中專案的字串翻譯建議</li>
 	</ul>
-    <p>請前往 <a href="http://l10n.mozilla-community.org/~pascalc/langchecker/?locale=zh-TW">Lang format file checker</a></p>
+  <p>請前往 <a href="http://l10n.mozilla-community.org/~pascalc/langchecker/?locale=zh-TW">Lang format file checker</a></p>
 	<ul>
 		<li>若您想要知道 Snippet (.Lang) 格式字串檔的翻譯狀況</li>
 	</ul>
+  <p>請前往 <a href="https://snippets.mozilla.com/">Snippets Service</a></p>
+  <ul>
+    <li>若您想要知道開始頁 Snippets 的上線情況與記錄</li>
+  </ul>
 	<p>第三方工具</p>
 	<ul>
 		<li><a href="http://mxr.mozilla.org/">mxr.mozilla.org</a> - 瀏覽 Mozilla 程式碼（Mozilla）</li>
