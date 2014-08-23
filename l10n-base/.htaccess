@@ -1,2 +1,2 @@
-DirectoryIndex disabled   # Need this in apache 2.4
+DirectoryIndex disabled
 Options +Indexes +FollowSymLinks
