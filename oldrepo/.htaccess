@@ -1,2 +1,2 @@
+DirectoryIndex disabled   # Need this in apache 2.4
 Options +Indexes
-

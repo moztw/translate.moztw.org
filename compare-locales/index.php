@@ -68,22 +68,13 @@ switch ($_GET['branch']) {
 	$l10n_base = 'l10n-central';
 	break;
 
-/*	case '1.9.2':
-	case 'mozilla-1.9.2':
-	case 'comm-1.9.2':
-	case 'l10n-mozilla-1.9.2':
-	$branch = '../../var/repo/' . $repo . '-1.9.2';
-	$l10n_base = 'l10n-mozilla-1.9.2';
-	break;
-*/
-
 	case 'beta':
-	$branch = '../../var/repo/' . $repo . '-beta';
+	$branch = '../../../translate/var/repo/' . $repo . '-beta';
 	$l10n_base = 'l10n-beta';
 	break;
 
 	case 'aurora':
-	$branch = '../../var/repo/' . $repo . '-aurora';
+	$branch = '../../../translate/var/repo/' . $repo . '-aurora';
 	$l10n_base = 'l10n-aurora';
 	break;		
 }
