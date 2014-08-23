@@ -1,7 +1,7 @@
 
  "l10n-base" is used by compare-locales, symbolic linked to Narro export dir.
 
- This files must be reviewed by human before they can enter Mozilla repo.
+ These files must be reviewed by human before they can enter Mozilla repo.
 
  Building application from these files may result failure.
 
