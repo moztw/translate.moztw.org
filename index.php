@@ -32,9 +32,9 @@
 	<ul>
 		<li>若您想要知道目前各程式的正體中文語系在 Mozilla repository 當中的狀態</li>
 	</ul>
-	<p>請前往 <a href="https://localize.mozilla.org/zh_TW/">Mozilla Verbatim</a></p>
+	<p>請前往 <a href="https://pontoon.mozilla.org/zh-TW/">Pontoon</a></p>
 	<ul>
-		<li>若您想要知道目前已經加入的網頁專案</li>
+		<li>若您想要知道目前加入的網頁專案與部分產品（例如 Firefox for iOS）</li>
 		<li>送出各維護中專案的字串翻譯建議</li>
 	</ul>
   <p>請前往 <a href="http://l10n.mozilla-community.org/~pascalc/langchecker/?locale=zh-TW">Lang format file checker</a></p>
