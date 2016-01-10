@@ -54,7 +54,7 @@
             
             $lblOpenIdLogin = new QLinkButton($this->objAccordion);
             $lblOpenIdLogin->HtmlEntities = false;
-            $lblOpenIdLogin->Text = '<img src="http://www.openid.net/favicon.ico" /> ' . t('Login with your OpenID');
+            $lblOpenIdLogin->Text = '<img src="//www.openid.net/favicon.ico" /> ' . t('Login with your OpenID');
             
             $pnlOpenIdLogin = new QPanel($this->objAccordion);
             $pnlOpenIdLogin->AutoRenderChildren = true;
@@ -70,7 +70,7 @@
             
             $lblGoogleLogin = new QLinkButton($this->objAccordion);
             $lblGoogleLogin->HtmlEntities = false;
-            $lblGoogleLogin->Text = '<img src="http://www.google.com/favicon.ico" /> ' . t('Login with your Google account');
+            $lblGoogleLogin->Text = '<img src="//www.google.com/favicon.ico" /> ' . t('Login with your Google account');
             $lblGoogleLogin->AddAction(new QClickEvent(), new QServerControlAction($this, 'btnGoogleLogin_Click'));
             
             $pnlGoogleLogin = new QPanel($this->objAccordion);
@@ -78,7 +78,7 @@
             
             $lblBrowserIdLogin = new QLinkButton($this->objAccordion);
             $lblBrowserIdLogin->HtmlEntities = false;
-            $lblBrowserIdLogin->Text = '<img src="https://browserid.org/favicon.ico" /> ' . t('Login with BrowserID');
+            $lblBrowserIdLogin->Text = '<img src="//browserid.org/favicon.ico" /> ' . t('Login with BrowserID');
             $lblBrowserIdLogin->AddAction(new QClickEvent(), new QJavaScriptAction(sprintf("navigator.id.get(function(assertion) {if (assertion) {qc.pA('%s', '%s', 'QClickEvent', assertion, '')} else {qc.pA('%s', '%s', 'QClickEvent', '', '')}}); return false;", $this->Form->FormId, $lblBrowserIdLogin->ControlId, $this->Form->FormId, $lblBrowserIdLogin->ControlId)));
             $lblBrowserIdLogin->AddAction(new QClickEvent(), new QAjaxControlAction($this, 'btnBrowserIdLogin_Click'));
             
