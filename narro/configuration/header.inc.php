@@ -21,7 +21,7 @@
  }
  
  if (isset($_SERVER['HTTPS'])) {
-     header('Strict-Transport-Security: max-age=43200; includeSubDomains');
+     header('Strict-Transport-Security: max-age=31536000; includeSubDomains');
  }
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
