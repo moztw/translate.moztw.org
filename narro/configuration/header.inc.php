@@ -55,6 +55,7 @@
         <script type="text/javascript" src="<?php echo __VIRTUAL_DIRECTORY__ . __SUBDIRECTORY__?>/assets/js/table_row_highlight.js"></script>
         <script type="text/javascript" src="<?php echo __JS_ASSETS__ . '/' . __JQUERY_BASE__?>"></script>
         <script type="text/javascript" src="<?php echo  __JS_ASSETS__ . '/' . __JQUERY_EFFECTS__?>"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.4.0.js"></script>
         <script type="text/javascript" src="<?php echo  __JS_ASSETS__ . '/qcubed.js'?>"></script>
         <script type="text/javascript" src="<?php echo  __JS_ASSETS__ . '/control.js'?>"></script>
         <script type="text/javascript" src="<?php echo  __JS_ASSETS__ . '/date_time_picker.js'?>"></script>
