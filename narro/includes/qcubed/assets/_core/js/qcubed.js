@@ -166,7 +166,7 @@ $j.ajaxSync.data = [];
 				switch (strType) {				
 					case "checkbox":
 					case "radio":
-						if ($j(this).attr("checked")) {
+						if ($j(this).prop("checked")) {
 							var strTestName = $j(this).attr("name") + "_";
 							if (strControlId.substring(0, strTestName.length) == strTestName)
 								strPostData += "&" + $j(this).attr("name") + "=" + strControlId.substring(strTestName.length);
@@ -324,4 +324,4 @@ $j.ajaxSync.data = [];
 	
 	qc.pB = qcubed.postBack;
 	qc.pA = qcubed.postAjax;
-	
+

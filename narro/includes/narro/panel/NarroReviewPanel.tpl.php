@@ -192,9 +192,8 @@ function ctx_editor_focus(ctl, trans, copy, help, ctxInfo, chkChanged) {
      QApplication::ExecuteJavaScript(
          sprintf(
 "jQuery(window).scroll(function(){
-        if  (jQuery(window).scrollTop() == (jQuery(document).height() - jQuery(window).height()) && jQuery('#endReached').attr('checked') == false && jQuery('#requestMoreSent').attr('checked') == false) {
-        
-        	jQuery('#requestMoreSent').attr('checked', true);
+        if  (jQuery(window).scrollTop() == (jQuery(document).height() - jQuery(window).height()) && jQuery('#endReached').prop('checked') == false && jQuery('#requestMoreSent').prop('checked') == false) {
+          jQuery('#requestMoreSent').prop('checked', true);
             qc.pA('%s', '%s', 'QClickEvent', '', '%s');
         }
 }); ",

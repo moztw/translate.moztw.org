@@ -135,7 +135,7 @@
 
             $this->txtTranslation->AddAction(new QFocusEvent(), new QJavaScriptAction(sprintf('ctx_editor_focus("%s", "%s", "%s", "%s", "%s", "%s")', $this->ControlId, $this->txtTranslation->ControlId, $this->btnCopy->ControlId, $this->btnHelp->ControlId, $this->lblContextInfo->ControlId, $this->chkChanged->ControlId)));
 
-            $this->txtTranslation->AddAction(new QChangeEvent(), new QJavaScriptAction(sprintf('jQuery("#%s").attr("checked", true);', $this->chkChanged->ControlId)));
+            $this->txtTranslation->AddAction(new QChangeEvent(), new QJavaScriptAction(sprintf('jQuery("#%s").prop("checked", true);', $this->chkChanged->ControlId)));
             
             if (QApplication::$User->GetPreferenceValueByName('Automatically save translations') == 'Yes')
                 $this->txtTranslation->AddAction(new QFocusEvent(), new QAjaxControlAction($this, 'txtTranslation_Focus'));
@@ -144,7 +144,7 @@
                 new QClickEvent(),
                 new QJavaScriptAction(
                     sprintf(
-                        'if (jQuery("#%s").attr("alt") == "%s") {jQuery("#%s").val(jQuery("#%s").text());jQuery("#%s").attr("alt", "%s");jQuery("#%s").attr("checked", "true");} else {jQuery("#%s").val("");jQuery("#%s").attr("alt", "%s");jQuery("#%s").attr("checked", "");}',
+                        'if (jQuery("#%s").attr("alt") == "%s") {jQuery("#%s").val(jQuery("#%s").text());jQuery("#%s").attr("alt", "%s");jQuery("#%s").prop("checked", "true");} else {jQuery("#%s").val("");jQuery("#%s").attr("alt", "%s");jQuery("#%s").prop("checked", "");}',
                         $this->btnCopy->ControlId,
                         t('Copy'),
                         $this->txtTranslation->ControlId,

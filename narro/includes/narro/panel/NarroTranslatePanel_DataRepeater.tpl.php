@@ -4,7 +4,7 @@ $pnlEditor = $_FORM->GetControl('i' . $_ITEM->ContextInfoId);
 if (!$pnlEditor) {
     $pnlEditor = new NarroContextInfoEditor($_CONTROL, 'i' . $_ITEM->ContextInfoId, $_ITEM);
     $pnlEditor->Translation->AddAction(new QFocusEvent(), new QJavaScriptAction(
-            sprintf("if  (jQuery(window).scrollTop() + 200 > jQuery(document).height() - jQuery(window).height() && jQuery('#endReached').attr('checked') == false) qc.pA('%s', '%s', 'QClickEvent', '%s', '%s')", $_CONTROL->Form->FormId, $_CONTROL->ParentControl->btnMore->ControlId, $pnlEditor->Translation->ControlId, $_CONTROL->ParentControl->objWaitIcon->ControlId)));
+            sprintf("if  (jQuery(window).scrollTop() + 200 > jQuery(document).height() - jQuery(window).height() && jQuery('#endReached').prop('checked') == false) qc.pA('%s', '%s', 'QClickEvent', '%s', '%s')", $_CONTROL->Form->FormId, $_CONTROL->ParentControl->btnMore->ControlId, $pnlEditor->Translation->ControlId, $_CONTROL->ParentControl->objWaitIcon->ControlId)));
     
     $_CONTROL->ParentControl->blnNewEditorCreated = true;
 } else {
