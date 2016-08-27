@@ -19,11 +19,11 @@
   <ul>
     <li>了解正體中文語系的樣式與 L10n Rule</li>
   </ul>
-	<p>請前往 <a href="/narro">Narro</a></p>
-	<ul>
+  <del><p>請前往 <a href="/narro">Narro</a></p></del>（Narro 已棄用，目前僅作為紀錄使用）
+  <del><ul>
 		<li>若您是 l10n 團隊的一員或是已接受邀請願意參與翻譯</li>
 		<li>想要看看尚未 push 到 Mozilla 的翻譯進度</li>
-	</ul>
+	</ul></del>
 	<p>請前往 <a href="https://translate.moztw.org/l10n-base/">L10n Base</a></p>
 	<ul>
 		<li>若您想要取得本站的 Narro 所匯出的資料（By file），這些資料可能已經或尚未送出至 Mozilla repository</li>
@@ -33,8 +33,9 @@
 		<li>若您想要知道目前各程式的正體中文語系在 Mozilla repository 當中的狀態</li>
 	</ul>
 	<p>請前往 <a href="https://pontoon.mozilla.org/zh-TW/">Pontoon</a></p>
-	<ul>
-		<li>若您想要知道目前加入的網頁專案與部分產品（例如 Firefox for iOS）</li>
+  <ul>
+    <li>若您是 l10n 團隊的一員或是已接受邀請願意參與翻譯</li>
+		<li>若您想要知道目前加入的專案清單</li>
 		<li>送出各維護中專案的字串翻譯建議</li>
 	</ul>
   <p>請前往 <a href="https://l10n.mozilla-community.org/~pascalc/langchecker/?locale=zh-TW">Lang format file checker</a></p>
